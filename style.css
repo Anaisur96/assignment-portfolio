@@ -1,9 +1,9 @@
 body{
     font-family: 'Poppins', sans-serif;
-    max-resolution: 0;
+    
 }
 h1{
-    font-size: 50px;
+    font-size: 40px;
 }
 h2{
     font-size: 40px;
@@ -13,8 +13,8 @@ section{
     display: flex;
 }
 .half-width{
-    width: 50%;
-    padding: 5%;
+    width: 30%;
+    padding: 10%;
 }
 .link-button{
     text-decoration: none;
@@ -26,4 +26,12 @@ section{
 }
 .orange-color{
     color: orangered;
+}
+.flexiable-part{
+    display:flex;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: auto;
+    border-radius: 10px solid;
 }
